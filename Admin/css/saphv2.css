@@ -1,0 +1,543 @@
+/* 
+ _____  __  __  ____                __                   
+/\___ \/\ \/\ \/\  _`\             /\ \                  
+\/__/\ \ \ \_\ \ \ \/\_\    ___    \_\ \     __    ____  
+   _\ \ \ \  _  \ \ \/_/_  / __`\  /'_` \  /'__`\ /',__\ 
+  /\ \_\ \ \ \ \ \ \ \L\ \/\ \L\ \/\ \L\ \/\  __//\__, `\
+  \ \____/\ \_\ \_\ \____/\ \____/\ \___,_\ \____\/\____/
+   \/___/  \/_/\/_/\/___/  \/___/  \/__,_ /\/____/\/___/ 
+                                                         
+http://www.jhcodes.com/
+Jesus Herrera - jesuxherrera@jhcodes.com
+*/
+
+
+
+/*################
+    Login Page 
+#################*/
+
+.loginbg{
+ background:#09F;
+}
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 30%;
+    padding: 40px 0px 20px 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    display:none;
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    margin: 0 auto 10px;
+    display: block;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+/*################
+    Panel Page 
+#################*/
+
+body{
+	background: #f8f8f8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* Menu */
+.navbar-default {
+  background-color:#008EC2;
+  border-color: transparent;
+  border: 0px;
+}
+
+.navbar-brand {
+  padding: 15px 19px;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  transition: all 0.5s ease;
+  text-align:left;
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a>span.bubble {
+  background: #00BFF7;
+  width: 25px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.navbar-default .navbar-nav>li>a>i {
+font-size: 16px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #004F6C;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #008EC2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #00BFF7;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color:#FFF;
+  background-color: rgb(0, 117, 160);
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #FFF;
+  background-color: #067096;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFF;
+  background-color: #004F6C;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  background: #004F6C;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #FFF;
+  background-color: rgb(0, 112, 153);
+}
+
+.nav>li>a>img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+/* User Settings */
+#user-setting{
+
+}
+
+#user-setting a{
+   padding: 3px 15px 3px 15px;
+}
+
+/* Panel Default Change Style */
+.panel-default>.panel-heading {
+  color: #FFF;
+  background-color: #008EC2;
+  border-color: #008EC2;
+}
+
+.showmenu{
+  font-size: 22px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 3px;
+}
+
+
+.row-fluid > * {
+    height: 200px;
+}
+
+
+/* Sider Menu */
+#sider-menu{
+ padding: 0px;
+}
+
+#sider-menu a{
+  transition: all 0.5s ease;
+  display: block;
+  background: #0077A3;
+  padding: 6px 0px 6px 22px;
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 1px solid #004F6C;
+}
+
+#sider-menu a:hover{
+  background: #006489;
+}
+
+
+#top-menu .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #008EC2;
+}
+
+/*New menu css -*/
+nav.sidebar, .main{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+  .main{
+    padding: 10px 10px 0 10px;
+  }
+
+ @media (min-width: 765px) {
+
+    .main{
+      position: absolute;
+      width: calc(100% - 40px); 
+      margin-left: 40px;
+      float: right;
+    }
+
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    
+    nav.sidebar a{
+      padding-right: 13px;
+    }
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+      color: #777;
+    }
+
+    nav.sidebar{
+      width: 260px;
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
+   
+  @media (min-width: 1330px) {
+
+    .main{
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+  section{
+    padding-left: 15px;
+  }
+/*end New menu css*/
+
+/* Porcent Cubes*/
+.porcent-cubes{
+  margin-top: 20px;
+  display: none;
+}
+.porcent-cubes .col-md-3{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #D2D2D2;
+  border-radius: 3px;
+  padding: 0px;
+  width: 24%;
+  margin-right: 1%;
+  float: left;
+}
+
+.porcent-cubes .header{
+  padding: 5%;
+  color: #FFF;
+  font-size: 2em;
+}
+
+.porcent-cubes .body{
+  padding: 3%;
+}
+
+.header-primary{
+   background-color: #337ab7;
+}
+
+.header-info{
+   background-color: #5bc0de;
+}
+
+.header-success{
+   background-color: #5cb85c;
+}
+
+.header-warning{
+   background-color: #f0ad4e;
+}
+
+.header-danger{
+   background-color: #d9534f;
+}
+
+/*#################
+       Users
+##################*/
+
+.user-panel{
+  background: #459EBE;
+  border: 1px solid #DDD;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 0.888888%;
+  margin-top: 0.888888%;
+  width: 15.666667%;
+  float: left;
+  display: none;
+}
+
+.user-panel .del-user{
+  text-align: right;
+  color: #F2F2F2;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.user-panel .del-user:hover{
+  color: #FFF;
+}
+
+.user-panel .name{
+  padding: 5px;
+  color: #FFF;
+}
+
+.user-panel .user-tumb img{
+  width: 85px;
+  border-radius: 50%;
+}
+
+/* Modal */
+.modal-header {
+  min-height: 16.43px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #008EC2;
+  color: #FFF;
+}
+
+
+/* Cubes Panel*/
+.src-image {
+  display: none;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  background-color: #008EC2;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+
+.card .header-bg {
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px #FFF solid;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.card .avatar img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(0,0,30,0.8);
+}
+
+
+/* About Me */
+.about-me{
+  padding: 10px;
+  color: #018EC2;
+}
+
+
+
+
+/*espacio de los iconos de cerrar ventana */
+
+.espacio{
+	padding-top:2px;
+	padding-left:4px
+	
+	
+}
+
+/*animacion que da la ilucion de girar sobre su eje*/
+
+.Animacion{
+    animation-name: rotateinfinite;-webkit-animation-name: rotateinfinite;
+    animation-timing-function: linear;-webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;
+    animation-duration: 6s;-webkit-animation-duration: 6s;
+}
+
+@keyframes rotateinfinite {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+  
+}
+
+.animacion:hover {
+     animation-play-state: paused;
+}
+/* FIN animacion que da la ilucion de girar sobre su eje*/
+
+/*FIN ENCABEZADO HEADER*/
+
+/*boton de  precios*/
+

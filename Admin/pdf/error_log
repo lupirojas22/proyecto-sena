@@ -1,0 +1,70 @@
+[14-Nov-2020 20:28:42 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:28:42 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271
+[14-Nov-2020 20:29:17 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:29:17 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271
+[14-Nov-2020 20:30:43 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:30:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271
+[14-Nov-2020 20:31:43 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:31:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271
+[14-Nov-2020 20:33:52 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:33:52 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271
+[14-Nov-2020 20:34:25 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:34:25 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271
+[14-Nov-2020 20:37:03 America/Bogota] PHP Warning:  fopen(logonom1.png) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 1428
+[14-Nov-2020 20:37:03 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logonom1.png' in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php:271
+Stack trace:
+#0 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1430): FPDF->Error('Can't open imag...')
+#1 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(1054): FPDF->_parsepng('logonom1.png')
+#2 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(370): FPDF->Image('logonom1.png', 225, 12, 45)
+#3 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php(334): FPDF->Header()
+#4 /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/pdf.php(8): FPDF->AddPage()
+#5 {main}
+  thrown in /home/fichco/public_html/seguridadvialsst.com.co/Admin/pdf/fpdf.php on line 271

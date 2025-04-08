@@ -1,0 +1,144 @@
+/* 
+ _____  __  __  ____                __                   
+/\___ \/\ \/\ \/\  _`\             /\ \                  
+\/__/\ \ \ \_\ \ \ \/\_\    ___    \_\ \     __    ____  
+   _\ \ \ \  _  \ \ \/_/_  / __`\  /'_` \  /'__`\ /',__\ 
+  /\ \_\ \ \ \ \ \ \ \L\ \/\ \L\ \/\ \L\ \/\  __//\__, `\
+  \ \____/\ \_\ \_\ \____/\ \____/\ \___,_\ \____\/\____/
+   \/___/  \/_/\/_/\/___/  \/___/  \/__,_ /\/____/\/___/ 
+                                                         
+http://www.jhcodes.com/
+Jesus Herrera - jesuxherrera@jhcodes.com
+*/
+
+@media(max-width:767px){
+
+
+/* sider-menu */
+#sider-menu{
+	display: none;
+}
+/* menu button */
+.showmenu{
+	cursor: pointer;
+}
+
+canvas {
+    position: relative;
+    width: 99%;
+}
+
+
+
+/* drop down */
+#top-menu .dropdown-menu{
+	background: #FFF;
+}
+#top-menu .dropdown-menu:before {
+  content: '';
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #008EC2;
+  text-align: center;
+}
+
+}
+@media(min-width:768px){
+
+/* menu button */
+.showmenu{
+  display: none;
+}
+
+/* Chart.js */
+canvas {
+    position: relative;
+    width: 99%;
+}
+/* dropdown */
+#top-menu .dropdown-menu:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -10px;
+  left: 92px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 15px;
+  margin-top: 2.5px;
+  border-radius: 3px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+
+
+}
+@media(min-width:992px){
+
+/* menu button */
+.showmenu{
+  display: none;
+}
+
+/* Chart.js */
+canvas {
+    position: relative;
+    width: 99%;
+}
+/* dropdown */
+#top-menu .dropdown-menu:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -10px;
+  left: 92px;
+}
+
+
+}
+@media(min-width:1200px){
+
+/* menu button */
+.showmenu{
+  display: none;
+}
+
+/* Chart.js */
+canvas {
+    position: relative;
+    width: 99%;
+}
+/* dropdown */
+#top-menu .dropdown-menu:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -10px;
+  left: 92px;
+}
+
+
+
+
+}
