@@ -13,10 +13,7 @@ session_start();
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.php" >Inicio</a></li>
-				<li><a href="curso_cond.php">Cursos</a></li>  
                 <li><a href="consulta1.php">Consulta</a></li>
-				<li><a href="contacto.php">Contacto</a></li>
 				<li><a href="Admin/index.php">Iniciar Sesion</a></li>	
 			</ul>
 		</div>          			 

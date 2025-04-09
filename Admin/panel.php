@@ -38,25 +38,7 @@
                         <img class="src-image" src="imagenes/panel-1.2.png"/>
                         <img class="src-image" src="imagenes/panel-1.1.png"/>
                         <img class="src-image" src="imagenes/panel-5.png"/>
-                        <div class="col-sm-4">       
-                        	<div class="card">                        
-                        		<canvas class="header-bg" width="250" height="70" id="header-blur"></canvas>
-                          		<div class="avatar">
-                            		<img src="" alt="" />
-                          		</div>
-                                <div class="content">
-                                	<p>Módulo <br>
-                                certificados</p>
-                                <form action="" method="post">
-                                <p><button type="button" class="btn btn-info" >
-                                <a href="panel_cert.php">
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                IR</button> </p></a>
-                               	</div>           
-							</div>
-						</div>    
-						
-						
+                        
 						<?php 
                          if($_SESSION['nivel']=='a') {?>
                     

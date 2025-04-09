@@ -6,7 +6,7 @@
         </div>
         <div id="sider-menu" class="panel-body">
         	<a href="panel.php" ><i class="fa fa-home"></i> Inicio</a>
-            <a href="panel_cert.php" ><i class="fa fa-graduation-cap" aria-hidden="true"></i> Módulo Certificados</a>
+           
         
             <?php   /* <a href="panel_cont.php" ><i class="fa fa-money" aria-hidden="true"></i> Módulo Contable</a> */
             
